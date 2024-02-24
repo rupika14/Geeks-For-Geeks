@@ -3,10 +3,7 @@
 class Solution:
      def reverseWord(self, s) -> str:
         #your code here
-        string=list(s)
-        string.reverse()
-        a=""
-        return a.join(string)
+        return s[::-1]
             
 
 
